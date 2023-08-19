@@ -4,6 +4,15 @@ Android (Compose) library that provides the exposed dropdown menu like this:
 - ![Screenshot 2023-08-19 132359](https://github.com/YoussefMoataz/Exposed-Dropdown-Input/assets/50296580/cc8eb126-72fd-48a2-b629-36b626b3e4cb)
 
 ## Setup
+build.grade (project):
+``` gradle
+repositories {
+        // other repos
+        maven("https://jitpack.io")
+    }
+```
+
+build.grade (app):
 ``` gradle
 dependencies {
     implementation("com.github.YoussefMoataz:Exposed-Dropdown-Input:1.0.0")
